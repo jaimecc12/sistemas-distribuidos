@@ -33,36 +33,29 @@
 
 </main>
 <section class="container">
-    <table class="table">
-        <thead>
-          <tr>
-            <th scope="col">#</th>
-            <th scope="col">Nivel de permisos</th>
-            <th scope="col">Descripción</th>
+    <div class="row no-gutters">
+        <div class="col-lg-5 ">
+            <div class="container align-self-center mx-auto">
+             <h1>Administra mejor las vacaciones de tus trabajadores</h1>
             
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">1</th>
-            <td>Adminstrador</td>
-            <td>Es el susuario con todos los pprivilegios dentro de la plataforma, puede editar, eliminar, ver, agregar y más.</td>
+             <p>Consiste en la organización, desarrollo, planeación y coordinación de estrategias para promover el desempeño eficiente del personal.</p>
+             <a href="saber más">saber más</a>
+            </div>
             
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>Supervisor</td>
-            <td>Es el usuario que solo puede ver resultados de los trabajadores dentro de su empresa.</td>
+        </div>
+        <div class="col-lg-7">
             
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td>Trabajador</td>
-            <td>Unicamente puede contestar los cuestionarios.</td>
+                <div class="">
+                <img src="./resources/img/portada.png" alt="" class="img-fluid">
+                </div>
             
-          </tr>
-        </tbody>
-      </table>
+        </div>
+
+    </div>
+    
+
+
+
 </section>
 
 
