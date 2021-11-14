@@ -29,7 +29,7 @@
           </nav>
         </div>
     </nav>
-<main>
+
 
 
 <section class="container">
