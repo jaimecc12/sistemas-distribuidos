@@ -22,7 +22,7 @@
                   <a class="nav-link active text-white" aria-current="page" href="./index.html">inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white" href="./login.html">Iniciar Sesión</a>
+                  <a class="nav-link text-white" href="./login.html">Iniciar Sesión 1</a>
                 </li>
                 
               </ul>
