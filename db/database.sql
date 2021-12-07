@@ -53,3 +53,23 @@ INSERT INTO `trabajadores` (`id`, `nombre`, `areatrabajo`, `fechanac`, `fechaing
 --
 ALTER TABLE `trabajadores`
   ADD PRIMARY KEY (`id`);
+   
+   
+- Estructura de tabla para la tabla `usuarios`
+-
+CREAR  TABLA ' usuarios ' (
+  ` id `  int ( 11 ) NOT NULL ,
+  ` usuario `  varchar ( 50 ) DEFAULT NULL ,
+  ` correo `  varchar ( 40 ) DEFAULT NULL ,
+  ` contraseña `  varchar ( 15 ) DEFAULT NULL ,
+) MOTOR = InnoDB DEFAULT CHARSET = utf8 COLLATE = utf8_spanish_ci;
+
+-
+- Volcado de datos para la tabla `usuarios`
+-
+
+INSERT INTO  ` usuarios ` ( `id ` , ` usuario ` , ` correo ` , ` contraseña `) VALORES
+( 1, 'usuario' , ' ric23@gmail.com ' , ' 321321 ');
+
+ALTER  TABLE  ' usuarios '
+  ADD PRIMARY KEY ( `id` );
