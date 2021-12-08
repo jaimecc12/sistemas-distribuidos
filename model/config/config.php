@@ -2,7 +2,7 @@
 define("SERVIDOR","localhost");
 define("USUARIO","root");
 define("PASSWORD","");
-define("BD","login");
+define("BD","trabajadores");
 
 
 //el nombre de la base de datos es informacion ya la tabla es personal 

@@ -9,7 +9,7 @@ if ($_POST) {
     $p = $_POST['password'];
 
     $pdo -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    $query = $pdo->prepare("SELECT * FROM usuario WHERE USER= :u AND PASSWORD = :p ");
+    $query = $pdo->prepare("SELECT * FROM usuario WHERE correo= :u AND contrasena = :p ");
     $query->bindParam(":u", $u);
     $query->bindParam(":p", $p);
     $query->execute();
