@@ -14,49 +14,23 @@
 
 
     <section class="vh-100" >
-  <div class="container py-5 h-100">
-    <div class="row d-flex align-items-center justify-content-center h-100" style="background-color: #e8e8e8">
-      <div class="col-md-8 col-lg-7 col-xl-6">
-        <img src="https://cdn-icons-png.flaticon.com/512/2026/2026508.png" class="atro img-fluid" alt="Phone image">
+    <form action="../../model/mecanismo.php" method="POST"> 
+      <div class="row mb-3">
+        <label    class="col-sm-2 col-form-label">correo</label>
+        <div class="col-sm-10">
+          <input type="text" name="correo"  class="form-control" id="correo">
+        </div>
       </div>
-      <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
-        <form>
-          <!-- Email input -->
-          <div class="form-outline mb-4">
-            <input type="email" id="form1Example13" class="form-control form-control-lg" />
-            <label class="form-label" for="form1Example13">Email address</label>
-          </div>
-
-          <!-- Password input -->
-          <div class="form-outline mb-4">
-            <input type="password" id="form1Example23" class="form-control form-control-lg" />
-            <label class="form-label" for="form1Example23">Password</label>
-          </div>
-
-          <div class="d-flex justify-content-around align-items-center mb-4">
-            <!-- Checkbox -->
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                value=""
-                id="form1Example3"
-                checked
-              />
-              <label class="form-check-label" for="form1Example3"> Remember me </label>
-            </div>
-            <a href="#!">Forgot password?</a>
-          </div>
-
-          <!-- Submit button -->
-          <button type="submit" class="btn btn-primary btn-lg btn-block">Sign in</button>
-
-          
-
-        </form>
+      <div class="row mb-3">
+        <label   class="col-sm-2 col-form-label">contraseña</label>
+        <div class="col-sm-10">
+          <input type="password"  name="password" class="form-control" id="password">
+        </div>
       </div>
-    </div>
-  </div>
-</section>
+      
+      
+      <button type="submit" class="btn btn-primary">entrar</button>
+    </form>
+    </section>
 </body>
 </html>
