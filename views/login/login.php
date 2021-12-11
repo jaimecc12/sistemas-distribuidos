@@ -10,6 +10,12 @@
 </head>
 <body>
     <h1>hola este es el login we</h1>
+    <script>
+       function alerta(){
+         alert("felicidades ya entraste");
+       }
+    </script>
+   
 
 
 
@@ -29,7 +35,7 @@
       </div>
       
       
-      <button type="submit" class="btn btn-primary">entrar</button>
+      <input type="button" onclick="alerta()" value="entrar">
     </form>
     </section>
 </body>
