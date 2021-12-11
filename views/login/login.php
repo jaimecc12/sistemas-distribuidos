@@ -12,7 +12,7 @@
     <h1>hola este es el login we</h1>
     <script>
        function alerta(){
-         alert("felicidades ya entraste");
+         alert("felicidades ya entraste"); //a donde?
        }
     </script>
    
